@@ -1,0 +1,15 @@
+:root{
+	
+}
+@font-face { 
+	font-family: 'TheKidsMraker';
+    src: url('../type/TheKidsMraker.ttf') format('truetype');
+}
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'TheKidsMraker';
+}
+html{
+	/*overflow: hidden;*/
+}

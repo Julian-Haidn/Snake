@@ -1,0 +1,54 @@
+.game{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+	
+	background-image: url('../img/bg/bg.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 20%;
+}
+.header img{
+	position: absolute;
+	height: 90%;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.action{
+	position: relative;
+	width: 100%;
+	height: 80%;
+}
+
+.field{
+	position: absolute;
+	display: inline-block;
+	width: 75vh;
+	max-width: 98%;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 0.8vw;
+	border: solid #48562A 0.8vw;
+	background-color: #48562A;
+}
+.field img{
+	height: 100%;
+}
+.snake img{
+	position: absolute;
+	width: 8.33%;
+	height: 8.33%;
+	top: 0;
+	left: 0;
+	transition: 0.2s;
+	transition-timing-function: linear;
+}
